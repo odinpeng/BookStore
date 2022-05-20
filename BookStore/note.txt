@@ -1,0 +1,18 @@
+<script> :
+click: 单机事件
+blur: 失去焦点事件
+change: 改变内容事件
+
+xml配置过滤器
+<filter>
+        <filter-name>过滤器名称</filter-name>
+        <filter-class>过滤器路径</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>过滤器名称</filter-name>
+        <url-pattern>拦截地址一</url-pattern>
+        <url-pattern>拦截地址二</url-pattern>
+</filter-mapping>
+
+AJAX请求：
+异步的JavaScript和XML
